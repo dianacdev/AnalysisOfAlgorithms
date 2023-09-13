@@ -1,4 +1,4 @@
-'''inversion count in n time'''
+'''inversion count in n time: input smaller test case arrays'''
 #Diana Cervantes
 import time
 
@@ -21,3 +21,6 @@ start = time.time()
 print(f'Number of inversions: {inversion_check(array, length)}')
 end = time.time()
 print(f'Runtime: {end-start}')
+
+## TEST CASE:
+#54044 14108 79294 29649 25260 60660 2995 53777 49689 9083
