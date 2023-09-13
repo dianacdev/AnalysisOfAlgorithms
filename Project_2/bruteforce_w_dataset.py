@@ -19,9 +19,10 @@ def inversion_check(arr, n):
 
 start = time.time()
 print(f'Array length: {len(dataset)}')
+#Taking the file/dataset and running the inversion check.
 print(f'Number of inversions: {inversion_check(dataset, len(dataset))}')
 end = time.time()
-print(f'Runtime: {end-start}')
+print(f'Runtime: {end-start} seconds')
 
 ## TEST CASE:
 #54044 14108 79294 29649 25260 60660 2995 53777 49689 9083
