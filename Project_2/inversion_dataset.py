@@ -1,12 +1,12 @@
 '''inversion count input'''
 #Diana Cervantes
 import time
+import numpy as np
 
 #providing the file path, where the dataset text is located.
 file_path = "D:\CodingProjects\school\AnalysisOfAlgorithms\Project_2\dataset.txt"
-file =  open(file_path, "r")
 
-dataset = file.readlines()
+dataset = np.loadtxt(file_path, dtype=int)
 
 def merge_sort(arr, n):
     '''Creates a temp array used in the merge function, and calls inversion_merge_sort'''
@@ -35,7 +35,7 @@ def merge(arr, temp_arr, left, mid, right):
     #Creating left subarray
     i = left
 
-    #Creating left subarray
+    #Creating right subarray
     j = mid + 1
 
     k = left

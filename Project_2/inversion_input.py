@@ -28,7 +28,7 @@ def merge(arr, temp_arr, left, mid, right):
     #Creating left subarray
     i = left
 
-    #Creating left subarray
+    #Creating right subarray
     j = mid + 1
 
     k = left
