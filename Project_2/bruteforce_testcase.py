@@ -12,6 +12,7 @@ def inversion_check(arr, n):
     return inversions
 
 array = []
+#Inputting the values into an array.
 array = [int(item) for item in input("Enter an list of values: ").split()]
 length = len(array)
 print(f'Array: {array}')
@@ -20,7 +21,7 @@ start = time.time()
 
 print(f'Number of inversions: {inversion_check(array, length)}')
 end = time.time()
-print(f'Runtime: {end-start}')
+print(f'Runtime: {end-start} seconds')
 
 ## TEST CASE:
 #54044 14108 79294 29649 25260 60660 2995 53777 49689 9083
